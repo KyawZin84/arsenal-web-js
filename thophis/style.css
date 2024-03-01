@@ -1,0 +1,97 @@
+body{
+    background-color: red;
+    margin: 0;
+    padding: 0;
+}
+/*menubar*/
+.menubar{
+    width: 100%;
+    height: 50px;
+    background-color:lightgray;
+    border-radius: 10px;
+}
+.menu{
+    list-style-type: none;
+}
+.menuitem{
+    float: right;
+    margin-right: 30px;
+    margin-top: 5px;
+}
+
+.menulogo{
+    float: left;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.menua:link,.menua:visited{
+    color:black;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.menua:hover{
+    color: blue;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.hp1{
+    width: 33%;
+    height: 300px;
+    margin-top: 3%;
+}
+
+.cupshow{
+    width: 110%;
+    height: 110px;
+    background-color: white;
+    padding:0 10%;
+    margin: 0;
+}
+.cupimg{
+    height: 100px;
+    width: 100px;
+}
+
+.allcupimg{
+    height: 100px;
+    width: 200px;
+    margin-left: 20%;
+}
+
+.cupcontainer{
+    position: relative;
+    margin-left: 20px;
+}
+
+.cupspan{
+    background-color: blue;
+    border-radius: 20px;
+    color: white;
+    bottom:10px;
+    right:10px;
+    position: absolute;
+    padding: 5px;
+    font-size: 20px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.cuptype{
+    text-align: center;
+    font-size: 50px;
+    color:white ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: rgb(207,235,0);
+    background: radial-gradient(circle, rgba(207,235,0,1) 0%, rgba(18,0,0,1) 80%); 
+    padding: 10px;
+}
+.epldiv,.fadiv,.leaguecupdiv,.shielddiv{
+    padding-left:20px;
+}
+.trophydiv{
+    width:15%;
+    margin:10px;
+}
+
+.cuph3{
+    text-align: center;
+}

@@ -1,0 +1,217 @@
+body{
+    background-color: red;
+}
+/*menubar*/
+.menubar{
+    width: 100%;
+    height: 50px;
+    background-color:lightgray;
+    border-radius: 10px;
+}
+.menu{
+    list-style-type: none;
+}
+.menuitem{
+    float: right;
+    margin-right: 30px;
+    margin-top: 5px;
+}
+
+.menulogo{
+    float: left;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.menua:link,.menua:visited{
+    color:black;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.menua:hover{
+    color: blue;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.hp1{
+    width: 100%;
+    height: 400px;
+    margin-top:3%;
+}
+/*intro*/
+.intro{
+    margin: 0;
+    background: rgb(0,0,0);
+    background: radial-gradient(circle, rgba(0,0,0,1) 29%, rgba(255,0,0,1) 82%); 
+}
+.hd1{
+    font-size: 50px;
+    color:red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+/*series*/
+.series{
+    width:920px;
+    float: left;
+}
+.serieshd{
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    word-spacing: 5px;
+    letter-spacing: 5px;
+}
+.seriesimg{
+    width:100%;
+    height: 400px;
+}
+.seriesinfo{
+    float:left;
+    background-color: white;
+    margin-left: 10px;
+}
+.seriesinfoimg{
+    width: 100px;
+    height: 100px;
+}
+.sinfoa:link,.sinfoa:visited{
+    color: black;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 2px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.sinfoa:hover{
+    color:blue;
+}
+/*container2*/
+.container2{
+    margin-top: 5px;
+}
+.left1,.center1,.right1{
+    width: 32%;
+    float: left;
+    margin-left:3px;
+    cursor: pointer;
+    user-select: none;
+}
+ .img2{
+    width:100%;
+    height: 300px;
+ }
+ .card-text{
+    color:red;
+    font-size: 40px;
+    text-align: center;
+ }
+/*news*/
+.newshd{
+    color: white;
+    width: 100%;
+    background: rgb(255,0,0);
+background: radial-gradient(circle, rgba(255,0,0,0.8155637254901961) 40%, rgba(0,0,0,1) 79%);
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 10px;
+    text-align: center;
+}
+.newsbigimg{
+    width:100%;
+    height: 400px;
+}
+.ct1{
+    font-size: 40px;
+    text-align: center;
+    padding-left: 30px;
+}
+.cte1{
+    color:blue;
+    font-size: 30px;
+    text-align: left;
+    padding-left: 30px;
+}
+.newsgroup {
+    width: 100%;
+    padding-bottom: 20px;
+}
+.newdiv,.newlist{
+    width:50%;
+    display: inline-block;
+}
+.newinfoimg{
+    width: 200px;
+    height:100px;
+    display: inline;
+}
+.newhead{
+    font-size: 25px;
+    padding: 0;
+    margin: 0;
+    display: inline;
+}
+.newtext{
+    font-size: 15px;
+}
+.news{
+    cursor: pointer;
+}
+.news:hover{
+    background-color: white;
+    opacity: 0.5;
+}
+
+/*squad page*/
+
+.container3{
+    margin-top: 100px;
+}
+.playertype{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: rgb(0,0,0);
+    background: radial-gradient(circle, rgba(0,0,0,1) 41%, rgba(255,0,0,1) 100%); 
+    width: 100%;
+    text-align: center;
+    color: white;
+    letter-spacing: 10px;
+    word-spacing: 15px;
+    margin-top:50px ;
+}
+.gkcontainer.defcontainer
+.midcontainer.forcontainer{
+    max-width: 100%;
+}
+.pdiv{
+    height:330px;
+    width:32%;
+    margin:5px;
+    cursor: pointer;
+}
+
+.pdiv:hover{
+    background-color: white;
+    opacity: 0.5;
+}
+.cardh{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:black;
+    text-align: center;
+}
+
+.pj{
+    width: 100px;
+    height: 60px;
+}
+.pc{
+    font-size: 30px;
+    width:60%;
+    padding: 0;
+    margin-left: 4%;
+}
+.pn {
+    color:white;
+    position: absolute;
+    right:24%;
+    bottom:20%;
+}
